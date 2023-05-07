@@ -4,9 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>not-icosahedron page</title>
+    <style>
+        .flex-container{
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .flex-children{
+            flex-wrap: nowrap;
+        }
+        
+        .flex-child-1{
+            border: 2px solid grey;
+        }
+        
+        .flex-child-2{
+            flex-grow: 1;
+        }
+        
+    </style>
+
     <title>not-icosahedron page</title>
 </head>
 <body>
+    <div id="blurry-filter"></div>
+
+<div class="center">
+    <div class="main-container" style="margin-top: 5%;">  
+    <!-- Information for desktop devices -->
+      <div class="visible-md-block hidden-xs d-none d-sm-block" style="width: auto;">
+        <div class="window" style="width: 100%">
+            <div class="title-bar">
+              <div class="title-bar-text">Looking forward to hearing from you...</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body flex-container">
+
+                <span class="flex-children flex-child-1" style="margin-right: 20px;"><img src="https://avatars.githubusercontent.com/u/90396907?v=4" width="130" style="max-width: 130px;"></span>
+
+                <ul class="tree-view flex-children flex-child-2">
+                    <li style="font-size: 35px;">
+                      Giovanni P.   Gambuti
+                      <ul>
+                        <li><p style="font-size: 20px; margin: 0;">Network Engineer</p></li>
+                        <li><p style="font-size: 20px; margin: 0;">Cyber Security Specialist</p></li>
+                        <li><p style="font-size: 20px; margin: 0;">Studente di Ingegneria Informatica</p></li>
+                      </ul>
+                    </li>
+                    <li>
+            </div>
+
+            <div class="status-bar">
+                <p class="status-bar-field" style="font-size:23px;"> Contatti:
+
+                      <button onclick="window.open('mailto:giovannip.gambuti@gmail.com', '_blank')" style="font-size:18px; margin-left: 255px;">
+                        <i class="fa-solid fa-at"></i> - Mail
+                      </button>
+
+                      <button onclick="window.open('https://www.linkedin.com/in/giovanni-p-gambuti/', '_blank')" style="font-size:18px;">
+                        <i class="fa-brands fa-linkedin-in"></i> - Linkedin
+                      </button>
+
+
+                      <button onclick="window.open('https://t.me/giovannipgam', '_blank')" style="font-size:18px">
+                        <i class="fa-brands fa-telegram"></i> - Telegram
+                      </button>
+
+                      <button onclick="window.open('https://github.com/not-icosahedron', '_blank')" style="font-size:18px">
+                        <i class="fa-brands fa-github"></i> - Github
+                      </button>
+                </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Information for smartphone devices -->
+      <div class="visible-xs-block hidden-md d-sm-none center" style="width: auto;">
+        <div class="window" style="width: 95%">
+            <div class="title-bar">
+              <div class="title-bar-text" style="font-size: smaller;">Looking forward to hearing from you...</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+                <span" style="margin-right: 20px;"><img src="https://avatars.githubusercontent.com/u/90396907?v=4" role="presentation" width="130" style="max-width: 130px;"></span>
+              <ul class="tree-view">
+                <li style="font-size: x-large;">
+                 Giovanni P. Gambuti
+                  <ul>
+                    <li><p style="font-size: medium; margin: 0;">Junior Network Engineer</p></li>
+                    <li><p style="font-size: medium; margin: 0;">Cyber Security Specialist</p></li>
+                    <li><p style="font-size: medium; margin: 0;">Studente di Ingegneria Informatica</p></li>
+                  </ul>
+                </li>
+                <li>
+
+            </div>
+
+
+            <div class="stat-bar-container">
+                <p style="font-size:16px; padding-left: 15px; margin: 8px;">Contatti: 
+
+                  <div class="stat-bar-child">
+                  <button onclick="window.open('mailto:giovannip.gambuti@gmail.com', '_blank')" style="font-size:10px">
+                    <i class="fa-solid fa-at"></i> - Mail
+                  </button>
+
+                    <button onclick="window.open('https://www.linkedin.com/in/giovanni-p-gambuti/', '_blank')" style="font-size:10px;">
+                        <i class="fa-brands fa-linkedin-in"></i> - Linkedin
+                      </button>
+
+                      <button onclick="window.open('https://t.me/giovannipgam', '_blank')" style="font-size:10px">
+                        <i class="fa-brands fa-telegram"></i> - Telegram
+                      </button>
+
+                      <button onclick="window.open('https://github.com/not-icosahedron', '_blank')" style="font-size:10px">
+                        <i class="fa-brands fa-github"></i> - Github
+                      </button>
+
+                  </div>    
+                </p>
+              </div>
+          </div>
+          </div>
+      </div>
+  </div>  
+</div>
+
+ 
     
 </body>
 </html>
